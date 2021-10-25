@@ -106,3 +106,22 @@ h1 span{
     content: "###";
     display: block;
 }
+.account-form textarea{
+    display: block;
+}
+.account-form textarea:hover{
+    display: block;
+    border: 10px solid blanchedalmond;
+}
+
+.account-form button img{
+    width: 10px;
+
+}
+#account-form__checkbox:checked{
+    margin: 30px;
+
+}
+.account-form button:hover{
+    background-color: cornflowerblue;
+}
