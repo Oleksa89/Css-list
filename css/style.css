@@ -1,0 +1,108 @@
+.menu{
+    width: 200px;
+    border:1px solid black;
+    
+}
+.menu:hover{
+    width: 300px;
+    background-color: #fff;
+}
+
+li:nth-child(even){
+    background-color: orange;
+}
+li:nth-child(5n+2){
+    background-color: blue;
+}
+li:first-child,:nth-child(5){
+    background-color: green;
+}
+li:last-child{
+    background-color: orange;
+}
+
+li:nth-child(2n+8){
+    background-color: yellow;
+}
+
+li:nth-last-child(3){
+    background-color: red;
+}
+li:nth-child(3){
+    background-color: red;
+}
+li:nth-child(6){
+    background-color: blue;
+}
+
+ul{
+    list-style: none;
+}
+li::before{
+    display: inline-block;
+    content: "\2602";
+    background: chocolate;
+}
+li::after{
+    content: "\2573";
+    display: inline-block;
+}
+li:first-child:hover{
+    border: 1px solid black;
+}
+html body h1 span .redtext #red{
+    font-style: italic;
+} /*1+1+1+1+10+100 = 114 */
+h1 span{
+    color: red;
+}
+.redtext{
+    font-size: 40px;
+}
+.list{
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+}
+.list-item:nth-child(7){
+    font-weight: bold;
+    list-style: none;
+    background-color: wheat;
+    color: black;
+}
+.list-item:nth-last-child(5){
+    font-size: 50px;
+    color: blue;
+}
+.list-item::before{
+    content: "\205c";
+    display: inline-block;
+    
+}
+.list-item::after{
+    content: "\21ba";
+    display: inline-block;
+}
+.list-item__link{
+    text-decoration: none;
+}
+
+.list-item__text:nth-child(4){
+    font-weight: 900;
+}
+.list-item__text:nth-last-child(2){
+    background-color: chartreuse;
+}
+.list p:nth-last-of-type(2){
+    font-style: italic;
+    border: 15px orange solid;
+    text-transform: uppercase;
+}
+.list-item__text::before{
+    content: "***";
+    display: block;
+}
+.list p::after{
+    content: "###";
+    display: block;
+}
